@@ -1,7 +1,7 @@
 class cmd {
     
     stdOut(command){
-        ;stdout := runStdout(command)
+
 	    return this.hideout(command)
 
     }
