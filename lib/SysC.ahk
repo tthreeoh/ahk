@@ -70,4 +70,5 @@
         Gui, show, autosize
     }
 }   
-outputdebug, % SySC.list()
+;outputdebug, % SySC.list()
+;outputdebug, % SySC.demo()
