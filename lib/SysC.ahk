@@ -1,4 +1,15 @@
-﻿class SySC {
+;expended on by tthreeoh@gmail.com
+;reference https://www.autohotkey.com/boards/viewtopic.php?t=46309#p209072 posted by Flipeador
+;MsgBox % GetSysColor(13) . "`n" . GetSysColor(29)
+;
+;GetSysColor(n)
+;{
+;    Local BGR := DllCall("User32.dll\GetSysColor", "Int", n, "UInt")
+;        , RGB := (BGR & 255) << 16 | (BGR & 65280) | (BGR >> 16)
+;    Return Format("0x{:06X}", RGB)
+;} ; https://msdn.microsoft.com/en-us/library/windows/desktop/ms724371(v=vs.85).aspx
+ 
+ class SySC {
         static COLOR_SCROLLBAR := 0  ; Scroll bar gray area.Windows 10 or greater: This value is not supported.
         static COLOR_DESKTOP := 1  ; Desktop.Windows 10 or greater: This value is not supported.
         static COLOR_BACKGROUND := 1  ; Desktop.Windows 10 or greater: This value is not supported.
